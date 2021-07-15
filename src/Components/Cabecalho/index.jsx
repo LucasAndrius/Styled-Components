@@ -5,6 +5,22 @@ import bank_logo from "../../assets/images/bank_logo.svg";
 
 import { theme } from '../UI/variaveis'
 
+const BtnCabecalho = styled.a`
+text-align: center;
+border-radius: 3px;
+padding: 5px 20px;
+margin: 0 10px;
+font-weight: 600;
+border: 2px solid white;
+background:${(props) => props.primary ? "white" : theme.colors.corPrimaria};
+color:${(props) => props.primary ? theme.colors.corPrimaria : "white"};
+  
+  &:hover{
+    color:${theme.colors.corPrimaria};
+    background: ${theme.colors.fundoClaro};
+  }
+`;
+
 const StyledHeader = styled.nav`
 background-color: ${theme.colors.corPrimaria};
 display: flex;
@@ -24,12 +40,12 @@ const Cabecalho = () => {
     <StyledHeader className="cabecalho">
       <Logo className="imagem-logo" src={bank_logo} alt="Logo Smart Bank" />
       <div>
-        <a className="btn-secundario" href="https://google.com">
+        <BtnCabecalho primary href="https://google.com">
           Ajuda
-        </a>
-        <a className="btn-primario" href="https://google.com">
+        </BtnCabecalho>
+        <BtnCabecalho href="https://google.com">
           Sair
-        </a>
+        </BtnCabecalho>
       </div>
     </StyledHeader>
   );
