@@ -3,17 +3,17 @@
 </h4>
 <hr/>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LucasAndrius/pomodoro?color=%2304D361&style=for-the-badge">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LucasAndrius/Styled-Components?color=%2304D361&style=for-the-badge">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LucasAndrius/pomodoro?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LucasAndrius/Styled-Components?style=for-the-badge">
 
   <a href="https://github.com/LucasAndrius/move.it/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LucasAndrius/pomodoro?style=for-the-badge">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LucasAndrius/Styled-Components?style=for-the-badge">
   </a>
 
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
-   <a href="https://github.com/LucasAndrius/pomodoro/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/LucasAndrius/pomodoro?style=for-the-badge">
+   <a href="https://github.com/LucasAndrius/Styled-Components/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/LucasAndrius/Styled-Components?style=for-the-badge">
   </a>
 
 </p>
@@ -32,16 +32,16 @@
 
 <a href="">Demonstração</a>
 
-## [](https://github.com/LucasAndrius/pomodoro#--sobre-o-projeto) 💻 Sobre o projeto
+## [](https://github.com/LucasAndrius/Styled-Components#--sobre-o-projeto) 💻 Sobre o projeto
 ---
 
-## [](https://github.com/LucasAndrius/pomodoro#-%EF%B8%8F-funcionalidades) ⚙️ Funcionalidades
+## [](https://github.com/LucasAndrius/Styled-Components#-%EF%B8%8F-funcionalidades) ⚙️ Funcionalidades
  
 
 
 ---
 
-## [](https://github.com/LucasAndrius/pomodoro#--como-executar-o-projeto) 🚀 Como executar o projeto
+## [](https://github.com/LucasAndrius/Styled-Components#--como-executar-o-projeto) 🚀 Como executar o projeto
 
 ### Pré-requisitos
 
@@ -54,7 +54,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:LucasAndrius/pomodoro.git
+$ git clone git@github.com:LucasAndrius/Styled-Components.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd move.it
