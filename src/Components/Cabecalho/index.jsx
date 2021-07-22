@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import bank_logo from "../../assets/images/bank_logo.svg";
 
-import { theme } from '../UI/variaveis'
+import { corPrimaria, fundoClaro } from '../UI/variaveis'
 
 const BtnCabecalho = styled.a`
 text-align: center;
@@ -12,17 +12,17 @@ padding: 5px 20px;
 margin: 0 10px;
 font-weight: 600;
 border: 2px solid white;
-background:${(props) => props.primary ? "white" : theme.colors.corPrimaria};
-color:${(props) => props.primary ? theme.colors.corPrimaria : "white"};
+background:${(props) => props.primary ? "white" : corPrimaria};
+color:${(props) => props.primary ? corPrimaria : "white"};
   
   &:hover{
-    color:${theme.colors.corPrimaria};
-    background: ${theme.colors.fundoClaro};
+    color:${corPrimaria};
+    background: ${fundoClaro};
   }
 `;
 
 const StyledHeader = styled.nav`
-background-color: ${theme.colors.corPrimaria};
+background-color: ${corPrimaria};
 display: flex;
 justify-content: space-between;
 padding: 0 15vw;
